@@ -1,0 +1,5 @@
+<div *ngFor="let i of image">
+    <h1>{{i.id}}</h1>
+    <h1>{{i.nome}}</h1>
+    <img [attr.src]="i.image">
+</div>
